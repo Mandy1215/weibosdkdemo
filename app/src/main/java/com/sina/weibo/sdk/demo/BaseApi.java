@@ -6,4 +6,5 @@ package com.sina.weibo.sdk.demo;
 
 public class BaseApi {
     public static String OpenName = "aaaaaa";
+    //jjj
 }
