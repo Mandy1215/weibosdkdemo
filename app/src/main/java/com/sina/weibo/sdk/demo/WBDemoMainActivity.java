@@ -63,14 +63,14 @@ public class WBDemoMainActivity extends Activity {
         });
         // 分享到私信入口
         this.findViewById(R.id.shear_message).setOnClickListener(new OnClickListener() {
-            
+
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(WBDemoMainActivity.this, WBShareToMessageFriendActivity.class));
             }
         });
-        
-        
+
+
         // 日志上传（Open API）功能
         this.findViewById(R.id.feature_upload_log).setOnClickListener(
                 new OnClickListener() {
@@ -84,7 +84,7 @@ public class WBDemoMainActivity extends Activity {
                         WBAgent.onEvent(WBDemoMainActivity.this, "upload_log", extend);
                     }
                 });
-        
+
         this.findViewById(R.id.goto_weibo_page).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
